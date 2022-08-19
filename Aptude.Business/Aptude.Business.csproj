@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aptude.Core\Aptude.Core.csproj" />
+    <ProjectReference Include="..\Aptude.Entities\Aptude.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

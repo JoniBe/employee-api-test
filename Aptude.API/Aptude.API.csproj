@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aptude.Business\Aptude.Business.csproj" />
+    <ProjectReference Include="..\Aptude.Core\Aptude.Core.csproj" />
+    <ProjectReference Include="..\Aptude.Entities\Aptude.Entities.csproj" />
+    <ProjectReference Include="..\Aptude.Infrastructure\Aptude.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
